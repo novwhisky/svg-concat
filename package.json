@@ -1,0 +1,28 @@
+{
+  "name": "svg-concat",
+  "version": "0.0.0",
+  "description": "reduce http requests by converting svg media to a json map of data uris",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg",
+    "build",
+    "concat",
+    "uglify",
+    "performance",
+    "deploymant"
+  ],
+  "author": "Nathan Witt",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "^4.0.5",
+    "combined-stream": "0.0.5",
+    "stream-transform": "0.0.6",
+    "node-fs-extra": "^0.8.1",
+    "jsonstream": "0.0.1",
+    "q": "^1.0.1",
+    "q-io": "^1.11.4"
+  }
+}
