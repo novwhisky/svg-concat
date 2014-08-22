@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SVG preview</title>
+  <style type="text/css">
+    img {
+      float: left;
+      max-width: 30%;
+      margin: 1%;
+      background: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<script type="text/javascript">
+  var body = document.body,
+
+
+      images = {};
+
+
+  Object.keys(images).forEach(function(v) {
+    var el = document.createElement("img");
+    el.src = images[v];
+    body.appendChild(el);
+  })
+</script>
+</body>
+</html>
